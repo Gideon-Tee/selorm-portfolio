@@ -739,14 +739,20 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+#about {
+  background-color: rgba(0, 51, 102, 0.24);
+  padding: 60px 0;
+}
+
+
 .about .container {
-  background-color: var(--surface-color);
+  background-color: rgba(0, 51, 102, 0.582);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
 }
 
-.about .skills-content h5 {
-  font-size: 18px;
+.about .skills-content h4 {
+  font-size: 22px;
   font-weight: 700;
   margin: 30px 0 15px 0;
 }
@@ -787,11 +793,11 @@ section,
 }
 
 .about .about-me h4 {
-  font-size: 28px;
+  font-size: 32px;
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 30px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .about .about-me h4:after {
@@ -807,7 +813,9 @@ section,
 }
 
 .about .about-me p {
-  font-size: 18px;
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(10, 24, 37, 0.925);
 }
 
 /*--------------------------------------------------------------
