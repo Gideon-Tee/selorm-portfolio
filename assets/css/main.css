@@ -854,7 +854,13 @@ section,
   border-radius: 10px;
 }
 
-
+.resources .container h2 {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(5, 5, 102);
+}
 
 
 /*--------------------------------------------------------------
@@ -896,6 +902,14 @@ section,
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+}
+
+.services .container h2 {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(5, 5, 102);
 }
 
 @media (min-width: 1365px) {
