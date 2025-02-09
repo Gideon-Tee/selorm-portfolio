@@ -912,6 +912,7 @@ section,
   color: rgb(5, 5, 102);
 }
 
+
 @media (min-width: 1365px) {
   .services .service-item:hover {
     transform: translateY(-10px);
